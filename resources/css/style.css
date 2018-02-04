@@ -12,6 +12,10 @@ body{
   margin-right: 1.33rem;
 }
 
+.main_content_container{
+  margin-left: 1.33rem;
+}
+
 .header_container{
   display: flex;
   height: 3.55rem;
@@ -64,9 +68,14 @@ nav span{
 
 #main_info_img{
   width: 100%;
-  padding-top: 1.77rem;
   margin-bottom: 1.77rem;
 }
+
+#main_info_box{
+  display: flex;
+  margin-top: 1.77rem;
+}
+
 
 .text_flexbox{
   margin: auto;
@@ -100,6 +109,30 @@ nav span{
   display: block;
   width: 35%;
   height: auto;
+  margin: 16px;
+}
+
+.start_learning_container h1{
+  margin-top: 1.77rem;
+  margin-bottom: 1.77rem;
+}
+
+.start_learning_container{
+  margin: 1.77rem 4rem;
+  height: auto;
+}
+
+.start_learning_item{
+  width: 16.6%;
+}
+
+.start_learning_item_container{
+  display: flex;
+}
+.start_learning_item img{
+  height: auto;
+  width: 100%;
+  margin: auto;
 }
 
 div{
