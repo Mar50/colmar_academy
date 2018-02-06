@@ -7,13 +7,9 @@ body{
   margin-right: 6px;
 }
 
-.site_container{
-  margin-left: 1.33rem;
-  margin-right: 1.33rem;
-}
-
 .main_content_container{
-  margin-left: 1.33rem;
+  padding-left: 1.33rem;
+  padding-right: 1.33rem;
 }
 
 .header_container{
@@ -105,11 +101,25 @@ nav span{
   text-align: left;
 }
 
-.main_info_box_right_column img{
-  display: block;
+.list_object{
+  display: flex;
+  height: auto;
+}
+
+.list_object img{
   width: 35%;
   height: auto;
-  margin: 16px;
+  margin: 1.125rem;
+}
+
+.list_object_text{
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.125rem;
+  align-items: left;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
 }
 
 .start_learning_container h1{
@@ -123,16 +133,77 @@ nav span{
 }
 
 .start_learning_item{
-  width: 16.6%;
+  width: 30%;
+  margin-top: 1.77rem;
+  margin-right: 0.885rem;
+  margin-left: 0.885rem;
+  margin-bottom: 1.33rem;
+  background-color: white;
 }
 
 .start_learning_item_container{
   display: flex;
+  background-color: lightgrey;
+  height: auto;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
 }
 .start_learning_item img{
   height: auto;
   width: 100%;
   margin: auto;
+}
+
+.start_learning_textbox{
+  height: 2rem;
+}
+
+.thesis_container{
+  text-align: left;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.thesis_container h1{
+  margin-top: 1.77rem;
+  margin-bottom: 1.77rem;
+  height: auto;
+  text-align: center;
+}
+
+.thesis_video_container video{
+  width: 100%;
+}
+
+.thesis_video_container{
+  width: 60%;
+}
+
+.thesis_list_container{
+  display: flex;
+  flex-direction: column;
+}
+
+.thesis_list_container img{
+  margin: 1.125rem;
+}
+.thesis_video_container{
+  width: 60%;
+}
+
+.thesis_content_container{
+  display: flex;
+}
+
+.footer_flex_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_flex_container p, span{
+  margin-top: 1.125rem;
+  display: inline-flex;
 }
 
 div{
