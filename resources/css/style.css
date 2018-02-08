@@ -1,10 +1,14 @@
 body{
   text-align: center;
   font-size: 18px;
-  font-family: "Ubuntu", sans-serif;
 }
-#colmar{
-  margin-right: 6px;
+
+h1{
+  font-family: Ubuntu, sans-serif;
+}
+
+p{
+  font-family: "Roboto", sans-serif;
 }
 
 .main_content_container{
@@ -13,22 +17,30 @@ body{
 }
 
 .header_container{
-  display: flex;
+  display: inline-flex;
   height: 3.55rem;
-  align-items: center;
+  align-items:center;
   justify-content: space-between;
-}
-.header_container img{
-  height: 80%;
-  margin-left: 1.33rem;
+  width: 100%;
 }
 
 nav:first-child{
   padding-right: 1.125rem;
 }
+
+.left_nav span{
+  font-size: 1.5rem;
+}
+
+.left_nav img{
+  height: 100%;
+  margin-left: 1.33rem;
+}
+
 nav span{
   padding-right: 1.125rem;
-  border: solid 1px black;
+  margin: auto;
+  font-size: 1.5rem;
 }
 
 .big_flex_container{
@@ -47,19 +59,20 @@ nav span{
 }
 
 #learn_something_box{
-  background-color: #cccccc;
+  /*GRAIN*/
+  background-color: #D7CEC7;
 }
 
 #learn_button{
   text-align: center;
-  margin-top: 5rem;
   width: 100%;
-  background-color: #333333;
+  /*OXBLOOD*/
+  background-color: #76323F;
 }
 
 #learn_button p{
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
+  padding-top: 0.44rem;
+  padding-bottom: 0.44rem;
 }
 
 #main_info_img{
@@ -69,7 +82,7 @@ nav span{
 
 #main_info_box{
   display: flex;
-  margin-top: 1.77rem;
+  border-top: 2px solid black;
 }
 
 
@@ -77,14 +90,11 @@ nav span{
   margin: auto;
   text-align: left;
   font-size: 3rem;
+  height: auto;
 }
 
 .text_flexbox p{
   font-size: 2.5rem;
-}
-
-.page_title{
-  font-size: 32px;
 }
 
 .main_info_box_left_column{
@@ -92,6 +102,10 @@ nav span{
   display: flex;
   flex-direction: column;
   text-align: left;
+  padding-top: 1.125rem;
+  padding-left: 1.125rem;
+  /*TAN*/
+  background-color: #C09F80;
 }
 
 .main_info_box_right_column{
@@ -99,6 +113,9 @@ nav span{
   display: flex;
   flex-direction: column;
   text-align: left;
+  height: auto;
+  /*GRAIN*/
+  background-color: #D7CEC7;
 }
 
 .list_object{
@@ -108,7 +125,7 @@ nav span{
 
 .list_object img{
   width: 35%;
-  height: auto;
+  height: 35%;
   margin: 1.125rem;
 }
 
@@ -119,17 +136,23 @@ nav span{
   align-items: left;
   justify-content: center;
   width: 100%;
-  margin: auto;
+  border-bottom: 1px solid black;
 }
+
 
 .start_learning_container h1{
   margin-top: 1.77rem;
   margin-bottom: 1.77rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .start_learning_container{
-  margin: 1.77rem 4rem;
+  padding: 1.77rem 4rem;
+  border-top: 2px solid black;
   height: auto;
+  /*GRAIN*/
+  background-color: #D7CEC7;
 }
 
 .start_learning_item{
@@ -143,7 +166,8 @@ nav span{
 
 .start_learning_item_container{
   display: flex;
-  background-color: lightgrey;
+  /*GRAIN*/
+  background-color: #D7CEC7;
   height: auto;
   flex-wrap: wrap;
   align-self: center;
@@ -155,19 +179,28 @@ nav span{
   margin: auto;
 }
 
+.start_learning_item p:last-child{
+  padding-bottom: 2rem;
+}
+
 .start_learning_textbox{
   height: 2rem;
 }
 
 .thesis_container{
   text-align: left;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.125rem;
+  /*GRAIN*/
+  background-color: #D7CEC7;
+  border-top: 2px solid black;
 }
 
 .thesis_container h1{
-  margin-top: 1.77rem;
+  margin-top: 1.25rem;
   margin-bottom: 1.77rem;
+  font-size: 2rem;
+  font-weight: bold;
   height: auto;
   text-align: center;
 }
@@ -180,13 +213,20 @@ nav span{
   width: 60%;
 }
 
+.thesis_video_container h1{
+  text-align: left;
+}
+
 .thesis_list_container{
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 
 .thesis_list_container img{
   margin: 1.125rem;
+  width: 35%;
+  height: 35%;
 }
 .thesis_video_container{
   width: 60%;
@@ -199,13 +239,15 @@ nav span{
 .footer_flex_container{
   display: flex;
   justify-content: space-between;
+  background-color: lightgrey;
 }
 
 .footer_flex_container p, span{
   margin-top: 1.125rem;
   display: inline-flex;
+  font-weight: bold;
 }
 
-div{
+/*div{
   border: solid 1px black;
 }
