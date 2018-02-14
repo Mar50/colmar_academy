@@ -74,6 +74,10 @@ nav span{
   background-color: #D7CEC7;
 }
 
+#learn_something_box_mobile{
+  display: none;
+}
+
 #learn_button{
   text-align: center;
   width: 100%;
@@ -108,7 +112,6 @@ nav span{
   margin-bottom: auto;
   text-align: left;
   font-size: 2rem;
-  border: solid 1px black;
 }
 
 .text_flexbox h1{
@@ -250,6 +253,10 @@ nav span{
   border-top: 2px solid black;
 }
 
+.thesis_content_container p{
+  margin-bottom: 1rem;
+}
+
 .thesis_container h1{
   margin-top: 1.25rem;
   margin-bottom: 1.77rem;
@@ -344,6 +351,7 @@ nav span{
 
   .text_flexbox p{
     margin: auto;
+    margin-bottom: 1rem;
   }
 
   .start_learning_item{
@@ -379,21 +387,51 @@ nav span{
   }
 
   #learn_something_box{
+    display: none;
+  }
+
+  #learn_something_box_mobile{
+    display: flex;
     flex-direction: column;
-    margin: auto;
+    height: auto;
   }
 
-  #learn_something_img{
-    margin: auto;
+  #learn_something_box_mobile img{
     width: 100%;
+    height: 50%;
   }
 
-  .text_flexbox{
-    font-size: 1rem;
+  #learn_something_box_mobile h1{
+    margin-top: 1.77rem;
+    margin-left: 0.88rem;
+    margin-bottom: 1.77rem;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
   }
 
-  .learn_something_box{
+  #learn_something_box_mobile p{
+    text-align: left;
+    font-size: 1.2rem;
+    margin-bottom: 1.33rem;
+  }
 
+  #learn_button_mobile p{
+    text-align: center;
+    font-weight: bold;
+    border-radius: 1rem;
+    margin-left: 0.88rem;
+    margin-right: 0.88rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /*OXBLOOD*/
+    background-color: #76323F;
+    margin-bottom: 1.77rem;
+  }
+
+  #learn_button_mobile p:hover{
+    /*TAN*/
+    background-color: #C09F80;
   }
 
   .main_info_box_left_column{
@@ -415,6 +453,10 @@ nav span{
     flex-direction: column;
   }
 
+  .main_info_box_mobile h1{
+    font-weight: bold;
+  }
+
   .main_info_box_mobile{
     display: flex;
     flex-direction: column;
@@ -422,7 +464,17 @@ nav span{
 
   .main_info_box_mobile img{
     margin: 0.88rem;
-    width: 90%;
+    width: 95%;
+  }
+
+  .main_info_list_item_mobile{
+    border-top: 1px solid black;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  .main_info_list_item_mobile h1, p{
+    padding-left: 1rem;
   }
 
   .start_learning_mobile_list{
@@ -461,16 +513,31 @@ nav span{
     width: 100%;
   }
 
-  .start_learning_item img, p{
-    display: none;
-  }
-
   .thesis_container{
     display: none;
   }
 
-}
+  .thesis_container_mobile{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+  }
 
-/*div{
-  border: solid 1px black;
+  .thesis_container_mobile h1{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1.77rem;
+    margin-bottom: 0.88rem;
+  }
+
+  .thesis_container_mobile video{
+    margin: auto;
+    width: 100%;
+    margin-bottom:
+  }
+
+  .footer_right{
+    display: none;
+  }
+
 }
